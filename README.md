@@ -16,6 +16,8 @@ This project provides a modular and scalable backend for searching products usin
 
 ---
 
+![Workflow](./image_similarity_search_workflow.svg)
+
 ## 🏗 Architecture
 
 The project follows a clean, modular structure:

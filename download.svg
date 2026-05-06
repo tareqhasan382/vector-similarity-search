@@ -1,0 +1,46 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="900" height="520" fill="#0f172a"></rect>
+
+  <text x="300" y="40" fill="white" font-size="20">Vector Similarity Search Flow</text>
+
+  <!-- Startup -->
+  <rect x="50" y="80" width="200" height="60" fill="#1e293b" stroke="#38bdf8"></rect>
+  <text x="70" y="115" fill="white">Server Startup</text>
+
+  <rect x="300" y="80" width="200" height="60" fill="#1e293b" stroke="#38bdf8"></rect>
+  <text x="320" y="115" fill="white">Load CLIP Model</text>
+
+  <rect x="550" y="80" width="250" height="60" fill="#1e293b" stroke="#38bdf8"></rect>
+  <text x="570" y="115" fill="white">Init DB + HNSW Index</text>
+
+  <!-- Product create -->
+  <rect x="50" y="180" width="200" height="60" fill="#1e293b" stroke="#22c55e"></rect>
+  <text x="70" y="215" fill="white">Upload Product</text>
+
+  <rect x="300" y="180" width="200" height="60" fill="#1e293b" stroke="#22c55e"></rect>
+  <text x="320" y="215" fill="white">Cloudinary Upload</text>
+
+  <rect x="550" y="180" width="250" height="60" fill="#1e293b" stroke="#22c55e"></rect>
+  <text x="570" y="215" fill="white">Save Product DB</text>
+
+  <rect x="300" y="260" width="300" height="60" fill="#1e293b" stroke="#22c55e"></rect>
+  <text x="320" y="295" fill="white">Background: Create Embedding</text>
+
+  <rect x="650" y="260" width="150" height="60" fill="#1e293b" stroke="#22c55e"></rect>
+  <text x="665" y="295" fill="white">Store Vector</text>
+
+  <!-- Search -->
+  <rect x="50" y="360" width="200" height="60" fill="#1e293b" stroke="#f59e0b"></rect>
+  <text x="70" y="395" fill="white">Upload Search Image</text>
+
+  <rect x="300" y="360" width="200" height="60" fill="#1e293b" stroke="#f59e0b"></rect>
+  <text x="320" y="395" fill="white">Create Query Vector</text>
+
+  <rect x="550" y="360" width="250" height="60" fill="#1e293b" stroke="#f59e0b"></rect>
+  <text x="570" y="395" fill="white">pgvector Similarity Search</text>
+
+  <rect x="300" y="440" width="300" height="60" fill="#1e293b" stroke="#f59e0b"></rect>
+  <text x="320" y="475" fill="white">Return Best Matching Product</text>
+
+</svg>
